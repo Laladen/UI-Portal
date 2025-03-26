@@ -15,12 +15,12 @@
         <div class="input-group">
            <i class="fas fa-user"></i>
            <input type="text" name="fName" id="fName" placeholder="First Name" required>
-           <label for="fname">First name</label>
+           <label for="fname">username</label>
         </div>
         <div class="input-group">
             <i class="fas fa-user"></i>
             <input type="text" name="lName" id="lName" placeholder="Last Name" required>
-            <label for="lName">Last Name</label>
+            <label for="lName">Las Name</label>
         </div>
         <div class="input-group">
             <i class="fas fa-envelope"></i>
