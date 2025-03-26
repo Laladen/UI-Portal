@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  /
+  
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register & Login</title>
@@ -15,7 +15,7 @@
         <div class="input-group">
            <i class="fas fa-user"></i>
            <input type="text" name="fName" id="fName" placeholder="First Name" required>
-           <label for="fname">First Name</label>
+           <label for="fname">username</label>
         </div>
         <div class="input-group">
             <i class="fas fa-user"></i>
