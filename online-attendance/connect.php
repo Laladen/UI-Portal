@@ -13,7 +13,7 @@ if ($conn->connect_error) {
 }
 
 // Fetch users data
-$sql = "SELECT email, CONCAT(lastname, ', ', firstname, ' ', middlename) AS fullname, office, aor, section, item, position, designation, division, status FROM users";
+$sql = "SELECT email, CONCAT(lastname, ', ', firstname, ' ', middlename) AS fullname, office, aor, section, item, position, designation, division, status, FROM users_tb";
 $result = $conn->query($sql);
 
 if (!$result) {
