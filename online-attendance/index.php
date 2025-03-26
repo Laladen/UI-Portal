@@ -15,12 +15,12 @@
         <div class="input-group">
            <i class="fas fa-user"></i>
            <input type="text" name="fName" id="fName" placeholder="First Name" required>
-           <label for="fname">First ame</label>
+           <label for="fname">First Name</label>
         </div>
         <div class="input-group">
             <i class="fas fa-user"></i>
             <input type="text" name="lName" id="lName" placeholder="Last Name" required>
-            <label for="lName">Last Name</label>
+            <label for="lName">Las Name</label>
         </div>
         <div class="input-group">
             <i class="fas fa-envelope"></i>
@@ -30,7 +30,7 @@
         <div class="input-group">
             <i class="fas fa-lock"></i>
             <input type="password" name="password" id="password" placeholder="Password" required>
-            <label for="password">Password</label>
+            <label for="password">Pasword</label>
         </div>
        <input type="submit" class="btn" value="Sign Up" name="signUp">
       </form>
