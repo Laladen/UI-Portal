@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  //test
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register & Login</title>
@@ -15,14 +14,12 @@
         <div class="input-group">
            <i class="fas fa-user"></i>
            <input type="text" name="fName" id="fName" placeholder="First Name" required>
-           <label for="fname">Firstname</label>
-           <br>
+           <label for="fname">First Name</label>
         </div>
         <div class="input-group">
             <i class="fas fa-user"></i>
             <input type="text" name="lName" id="lName" placeholder="Last Name" required>
             <label for="lName">Last Name</label>
-            <br>
         </div>
         <div class="input-group">
             <i class="fas fa-envelope"></i>
@@ -32,7 +29,7 @@
         <div class="input-group">
             <i class="fas fa-lock"></i>
             <input type="password" name="password" id="password" placeholder="Password" required>
-            <label for="password">Pasword</label>
+            <label for="password">Password</label>
         </div>
        <input type="submit" class="btn" value="Sign Up" name="signUp">
       </form>
