@@ -301,6 +301,7 @@
             margin-bottom: 10px;
             width: 100px;
             text-decoration: none;
+            margin-top: 20px;
         }
 
         .btn-add:hover {
@@ -349,7 +350,7 @@
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        margin-left: 60px;
+        margin-left: 65px;
         margin-top: 5px;
         }
 
