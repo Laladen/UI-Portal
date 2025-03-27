@@ -301,7 +301,6 @@
             margin-bottom: 10px;
             width: 100px;
             text-decoration: none;
-            bord
         }
 
         .btn-add:hover {
