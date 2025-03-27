@@ -20,7 +20,7 @@
         /* Navbar Styling */
         .navbar {
             width: 100%;
-            background-color: black; /* Blue background */
+            background-color: #364150; /* Blue background */
             color: white;
             display: flex;
             justify-content: center;
@@ -302,6 +302,7 @@
             width: 100px;
             text-decoration: none;
             margin-top: 20px;
+            border-radius: 7px;
         }
 
         .btn-add:hover {
@@ -375,7 +376,7 @@
         <!-- Logo -->
         <a href="user_index.php" class="logo-container">
             <img src="../images/logo/DENR.png" alt="DENR MIMAROPA Logo">
-            <h3 class="logo-text"></h3>
+            <h3 class="logo-text">DENR MIMAROPA</h3>
         </a>
 
         <!-- Notification & Profile Section -->
