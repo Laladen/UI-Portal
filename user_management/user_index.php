@@ -217,7 +217,7 @@
             margin-top: 120px;
             font-size: 25px;
             display: block;
-            margin-left: 55px;
+            margin-left: 150px;
             font-weight: bold;
         }
 
@@ -248,7 +248,7 @@
         /* Table Styling */
         table {
             flex-wrap: nowrap;
-            margin-left: 60px;
+            margin-left: 150px;
             
             align-content: end;
             border-collapse: collapse;
@@ -292,7 +292,7 @@
         }
 
         .btn-add {
-            margin-left: 95px;
+            margin-left: 150px;
             background-color: blue;
             color: white;
             font-size: 14px;
@@ -313,7 +313,7 @@
             display: flex;
             align-items: center;
             justify-content: end;
-            margin-right: 9%;
+            margin-right: 10%;
             margin-bottom: 10px;
         }
 
@@ -329,6 +329,7 @@
         .pagination {
             margin-top: 10px;
             margin-bottom: 30px;
+            margin-right: 50px;
             text-align: center;
         }
 
@@ -351,7 +352,7 @@
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        margin-left: 65px;
+        margin-left: 150px;
         margin-top: 5px;
         }
 
