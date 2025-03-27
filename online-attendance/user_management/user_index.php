@@ -254,5 +254,9 @@
             <a href="#">&raquo;</a>
         </div>
     </div>
+        <!-- Footer -->]
+    <footer style="width: 100%; background-color: #364150; color: white; text-align: left; padding: 0px; position: fixed; bottom: 0; left: 0;  font-size: 13px;">
+        <p>DATS 2025</p>
+    </footer>
 </body>
 </html>
