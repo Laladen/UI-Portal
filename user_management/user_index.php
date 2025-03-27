@@ -375,7 +375,7 @@
         <!-- Logo -->
         <a href="user_index.php" class="logo-container">
             <img src="../images/logo/DENR.png" alt="DENR MIMAROPA Logo">
-            <h3 class="logo-text">DENR MIMAROPA</h3>
+            <h3 class="logo-text"></h3>
         </a>
 
         <!-- Notification & Profile Section -->
