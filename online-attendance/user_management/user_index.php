@@ -20,8 +20,7 @@
         /* Navbar Styling */
         .navbar {
             width: 100%;
-            background-color: #053037; /* Blue background */
-            opacity: 1;
+            background-color: black; /* Blue background */
             color: white;
             display: flex;
             justify-content: center;
@@ -34,129 +33,129 @@
 
         /* Notification Icon (No Color) */
         /* Navbar container */
-        .nav-container {
-            display: flex;
-            justify-content: space-between;
-            width: 100%;
-            align-items: center;
-        }
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
 
-        /* Icons section (Notification and Profile) */
-        .nav-icons {
-            display: flex;
-            align-items: center;
-            gap: 0px;
-            margin-left: auto;  /* This moves the icons to the right */
-        }
+/* Icons section (Notification and Profile) */
+.nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    margin-left: auto;  /* This moves the icons to the right */
+}
 
-        /* Notification Bell Icon */
-        .notification {
-            position: relative;
-            color: white;
-            font-size: 20px;
-            text-decoration: none;
-            opacity: 0.8;
-            transition: opacity 0.3s ease;
-        }
+/* Notification Bell Icon */
+.notification {
+    position: relative;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
 
-        .notification:hover {
-            opacity: 1;
-        }
+.notification:hover {
+    opacity: 1;
+}
 
-        .notification .badge {
-            position: absolute;
-            top: -5px;
-            right: -10px;
-            background: red;
-            color: white;
-            font-size: 12px;
-            padding: 2px 6px;
-            border-radius: 50%;
-        }
+.notification .badge {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background: red;
+    color: white;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 50%;
+}
 
-        /* Profile Button */
-        .profile-menu {
-            position: relative;
-            display: flex;
-            align-items: center;
-            gap: 25px; /* Small gap between the profile picture and the arrow */
-        }   
+/* Profile Button */
+.profile-menu {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 25px; /* Small gap between the profile picture and the arrow */
+}
 
-        /* Profile Button */
-        .profile-btn {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            background: none;
-            border: none;
-            cursor: pointer;
-            padding: 8px 100px; /* Add padding to the profile button */
-        }
+/* Profile Button */
+.profile-btn {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px 100px; /* Add padding to the profile button */
+}
 
-        /* Profile Picture */
-        .profile-pic {
-            width: 35px;
-            height: 35px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 2px solid #ccc;
-        }
+/* Profile Picture */
+.profile-pic {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ccc;
+}
 
-        /* Arrow Down inside Small Circle */
-        .arrow-circle {
-            width: 22px;
-            height: 22px;
-            border-radius: 50%;
-            background: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            transition: transform 0.3s ease;
-        }
+/* Arrow Down inside Small Circle */
+.arrow-circle {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
 
-        /* Icon inside the arrow-circle */
-        .arrow-circle i {
-            font-size: 12px;
-            color: black;
-        }
+/* Icon inside the arrow-circle */
+.arrow-circle i {
+    font-size: 12px;
+    color: black;
+}
 
-        /* Dropdown Menu */
-        .dropdown-menu {
-            position: absolute;
-            top: 100%;
-            right: 15px; /* Moves the dropdown 15px from the right edge */
-            background: white;
-            border-radius: 5px;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-            list-style: none;
-            padding: 10px; /* Adds padding inside the dropdown */
-            margin: 5px 0;
-            display: none;
-            width: 150px;
-        }
+/* Dropdown Menu */
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 15px; /* Moves the dropdown 15px from the right edge */
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 10px; /* Adds padding inside the dropdown */
+    margin: 5px 0;
+    display: none;
+    width: 150px;
+}
 
-        .dropdown-menu li {
-            padding: 10px;
-            border-bottom: 1px solid #eee;
-        }
+.dropdown-menu li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
 
-        .dropdown-menu li a {
-            color: black;
-            text-decoration: none;
-            display: flex;
-            align-items: center;
-            gap: 10px; /* Adjusted gap between items in the dropdown */
-        }
+.dropdown-menu li a {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjusted gap between items in the dropdown */
+}
 
-        /* Show dropdown on hover */
-        .profile-menu:hover .dropdown-menu {
-            display: block;
-        }
+/* Show dropdown on hover */
+.profile-menu:hover .dropdown-menu {
+    display: block;
+}
 
-        /* Hover effect to move the arrow-circle */
-        .arrow-circle:hover {
-            transform: translateX(5px); /* Move the arrow circle to the right on hover */
-        }
+/* Hover effect to move the arrow-circle */
+.arrow-circle:hover {
+    transform: translateX(5px); /* Move the arrow circle to the right on hover */
+}
 
         /* Logo */
         .logo-text {
@@ -218,7 +217,7 @@
             margin-top: 120px;
             font-size: 25px;
             display: block;
-            margin-left: 55px;
+            margin-left: 150px;
             font-weight: bold;
         }
 
@@ -249,11 +248,10 @@
         /* Table Styling */
         table {
             flex-wrap: nowrap;
-            margin-left: 60px;
-            margin-top: 40px;
+            margin-left: 150px;
+            
             align-content: end;
             border-collapse: collapse;
-            margin-top: 20;
             box-shadow: 10px 10px 14px rgba(0, 0, 0, 0.1);
             background: white;
             border-radius: 10px;
@@ -294,7 +292,7 @@
         }
 
         .btn-add {
-            margin-left: 95px;
+            margin-left: 150px;
             background-color: blue;
             color: white;
             font-size: 14px;
@@ -303,8 +301,7 @@
             margin-bottom: 10px;
             width: 100px;
             text-decoration: none;
-            border-radius: 5px;
-            transition: 0.3s;
+            margin-top: 20px;
         }
 
         .btn-add:hover {
@@ -331,6 +328,8 @@
         /* Pagination */
         .pagination {
             margin-top: 10px;
+            margin-bottom: 30px;
+            margin-right: 50px;
             text-align: center;
         }
 
@@ -348,6 +347,24 @@
         .pagination a:hover {
             background-color: #f4f4f4;
         }
+        
+        .row-limit-container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-left: 150px;
+        margin-top: 5px;
+        }
+
+        .dropdown {
+        padding: 5px;
+        font-size: 14px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        background-color: white;
+        cursor: pointer;
+        }
+
     </style>
 </head>
 <body>
@@ -358,7 +375,7 @@
         <!-- Logo -->
         <a href="user_index.php" class="logo-container">
             <img src="../images/logo/DENR.png" alt="DENR MIMAROPA Logo">
-            <h3 class="logo-text">DENR MIMAROPA</h3>
+            <h3 class="logo-text"></h3>
         </a>
 
         <!-- Notification & Profile Section -->
@@ -381,15 +398,27 @@
                     <li><a href="profile.php"><i class="fa-solid fa-user"></i> Profile</a></li>
                     <li><a href="logout.php"><i class="fa-solid fa-sign-out-alt"></i> Logout</a></li>
                 </ul>
-                </div>
+            </div>
         </div>
     </div>  
-   </nav>
+</nav>
         <div class="container">
             <header>Account Management</header>
-            <br>
+            
             <a href="update_account.php" class="btn-add">Add New User</a>
-            <div class="search-bar">
+            <br>
+            <br>
+            <br>
+            <div class="row-limit-container">
+    <label for="row-limit">Show Rows:</label>
+    <select id="row-limit" class="dropdown">
+        <option value="5">5</option>
+        <option value="10">10</option>
+        <option value="15">15</option>
+    </select>
+</div>
+<br>
+<div class="search-bar">
                 <br>
                 <br>
                 <br>
@@ -428,6 +457,39 @@
                         <button class="btn btn-success">Reset Password</button>
                     </td>
                 </tr>
+                <tr>
+                    <td>example@email.com</td>
+                    <td>John Doe</td>
+                    <td>Main Office</td>
+                    <td>Region 1</td>
+                    <td>IT</td>
+                    <td>123</td>
+                    <td>Developer</td>
+                    <td>Staff</td>
+                    <td>Division A</td>
+                    <td>Active</td>
+                    <td>
+                        <button class="btn btn-warning">Deactivate</button>
+                        <button class="btn btn-success">Reset Password</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>example@email.com</td>
+                    <td>John Doe</td>
+                    <td>Main Office</td>
+                    <td>Region 1</td>
+                    <td>IT</td>
+                    <td>123</td>
+                    <td>Developer</td>
+                    <td>Staff</td>
+                    <td>Division A</td>
+                    <td>Active</td>
+                    <td>
+                        <button class="btn btn-warning">Deactivate</button>
+                        <button class="btn btn-success">Reset Password</button>
+                    </td>
+                </tr>
+                
             </tbody>
         </table>
         <br>
@@ -439,7 +501,14 @@
             <a href="#">2</a>
             <a href="#">3</a>
             <a href="#">&raquo;</a>
+            <br>
+            <br>
+            <br>
         </div>
     </div>
+    <footer style="width: 100%; background-color: #364150; color: white; text-align: left; padding: 0px; position: fixed; bottom: 0; left: 0;  font-size: 13px;">
+    <p>Developed by Qpal and Friends 2025</p>
+</footer>
 </body>
 </html>
+
