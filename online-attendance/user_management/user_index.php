@@ -34,129 +34,129 @@
 
         /* Notification Icon (No Color) */
         /* Navbar container */
-.nav-container {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    align-items: center;
-}
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            align-items: center;
+        }
 
-/* Icons section (Notification and Profile) */
-.nav-icons {
-    display: flex;
-    align-items: center;
-    gap: 0px;
-    margin-left: auto;  /* This moves the icons to the right */
-}
+        /* Icons section (Notification and Profile) */
+        .nav-icons {
+            display: flex;
+            align-items: center;
+            gap: 0px;
+            margin-left: auto;  /* This moves the icons to the right */
+        }
 
-/* Notification Bell Icon */
-.notification {
-    position: relative;
-    color: white;
-    font-size: 20px;
-    text-decoration: none;
-    opacity: 0.8;
-    transition: opacity 0.3s ease;
-}
+        /* Notification Bell Icon */
+        .notification {
+            position: relative;
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+            opacity: 0.8;
+            transition: opacity 0.3s ease;
+        }
 
-.notification:hover {
-    opacity: 1;
-}
+        .notification:hover {
+            opacity: 1;
+        }
 
-.notification .badge {
-    position: absolute;
-    top: -5px;
-    right: -10px;
-    background: red;
-    color: white;
-    font-size: 12px;
-    padding: 2px 6px;
-    border-radius: 50%;
-}
+        .notification .badge {
+            position: absolute;
+            top: -5px;
+            right: -10px;
+            background: red;
+            color: white;
+            font-size: 12px;
+            padding: 2px 6px;
+            border-radius: 50%;
+        }
 
-/* Profile Button */
-.profile-menu {
-    position: relative;
-    display: flex;
-    align-items: center;
-    gap: 25px; /* Small gap between the profile picture and the arrow */
-}
+        /* Profile Button */
+        .profile-menu {
+            position: relative;
+            display: flex;
+            align-items: center;
+            gap: 25px; /* Small gap between the profile picture and the arrow */
+        }   
 
-/* Profile Button */
-.profile-btn {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 8px 100px; /* Add padding to the profile button */
-}
+        /* Profile Button */
+        .profile-btn {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 8px 100px; /* Add padding to the profile button */
+        }
 
-/* Profile Picture */
-.profile-pic {
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 2px solid #ccc;
-}
+        /* Profile Picture */
+        .profile-pic {
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #ccc;
+        }
 
-/* Arrow Down inside Small Circle */
-.arrow-circle {
-    width: 22px;
-    height: 22px;
-    border-radius: 50%;
-    background: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: transform 0.3s ease;
-}
+        /* Arrow Down inside Small Circle */
+        .arrow-circle {
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            background: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: transform 0.3s ease;
+        }
 
-/* Icon inside the arrow-circle */
-.arrow-circle i {
-    font-size: 12px;
-    color: black;
-}
+        /* Icon inside the arrow-circle */
+        .arrow-circle i {
+            font-size: 12px;
+            color: black;
+        }
 
-/* Dropdown Menu */
-.dropdown-menu {
-    position: absolute;
-    top: 100%;
-    right: 15px; /* Moves the dropdown 15px from the right edge */
-    background: white;
-    border-radius: 5px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    list-style: none;
-    padding: 10px; /* Adds padding inside the dropdown */
-    margin: 5px 0;
-    display: none;
-    width: 150px;
-}
+        /* Dropdown Menu */
+        .dropdown-menu {
+            position: absolute;
+            top: 100%;
+            right: 15px; /* Moves the dropdown 15px from the right edge */
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            list-style: none;
+            padding: 10px; /* Adds padding inside the dropdown */
+            margin: 5px 0;
+            display: none;
+            width: 150px;
+        }
 
-.dropdown-menu li {
-    padding: 10px;
-    border-bottom: 1px solid #eee;
-}
+        .dropdown-menu li {
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+        }
 
-.dropdown-menu li a {
-    color: black;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    gap: 10px; /* Adjusted gap between items in the dropdown */
-}
+        .dropdown-menu li a {
+            color: black;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 10px; /* Adjusted gap between items in the dropdown */
+        }
 
-/* Show dropdown on hover */
-.profile-menu:hover .dropdown-menu {
-    display: block;
-}
+        /* Show dropdown on hover */
+        .profile-menu:hover .dropdown-menu {
+            display: block;
+        }
 
-/* Hover effect to move the arrow-circle */
-.arrow-circle:hover {
-    transform: translateX(5px); /* Move the arrow circle to the right on hover */
-}
+        /* Hover effect to move the arrow-circle */
+        .arrow-circle:hover {
+            transform: translateX(5px); /* Move the arrow circle to the right on hover */
+        }
 
         /* Logo */
         .logo-text {
@@ -381,10 +381,10 @@
                     <li><a href="profile.php"><i class="fa-solid fa-user"></i> Profile</a></li>
                     <li><a href="logout.php"><i class="fa-solid fa-sign-out-alt"></i> Logout</a></li>
                 </ul>
-            </div>
+                </div>
         </div>
     </div>  
-</nav>
+   </nav>
         <div class="container">
             <header>Account Management</header>
             <br>
