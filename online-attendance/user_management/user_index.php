@@ -250,10 +250,9 @@
         table {
             flex-wrap: nowrap;
             margin-left: 60px;
-            margin-top: 40px;
+            
             align-content: end;
             border-collapse: collapse;
-            margin-top: 20;
             box-shadow: 10px 10px 14px rgba(0, 0, 0, 0.1);
             background: white;
             border-radius: 10px;
@@ -300,11 +299,10 @@
             font-size: 14px;
             padding: 10px 20px;
             display: flex;
-            margin-bottom: 10px;
-            width: 100px;
+            margin-bottom: 1px;
+            width: 90px;
             text-decoration: none;
-            border-radius: 5px;
-            transition: 0.3s;
+            bord
         }
 
         .btn-add:hover {
@@ -316,7 +314,7 @@
             display: flex;
             align-items: center;
             justify-content: end;
-            margin-right: 10%;
+            margin-right: 14%;
             margin-bottom: 10px;
         }
 
@@ -348,6 +346,24 @@
         .pagination a:hover {
             background-color: #f4f4f4;
         }
+        
+        .row-limit-container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-left: 60px;
+        margin-top: 5px;
+        }
+
+        .dropdown {
+        padding: 5px;
+        font-size: 14px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        background-color: white;
+        cursor: pointer;
+        }
+
     </style>
 </head>
 <body>
@@ -387,9 +403,21 @@
 </nav>
         <div class="container">
             <header>Account Management</header>
-            <br>
+            
             <a href="update_account.php" class="btn-add">Add New User</a>
-            <div class="search-bar">
+            <br>
+            <br>
+            <br>
+            <div class="row-limit-container">
+    <label for="row-limit">Show Rows:</label>
+    <select id="row-limit" class="dropdown">
+        <option value="5">5</option>
+        <option value="10">10</option>
+        <option value="15">15</option>
+    </select>
+</div>
+<br>
+<div class="search-bar">
                 <br>
                 <br>
                 <br>
@@ -428,6 +456,39 @@
                         <button class="btn btn-success">Reset Password</button>
                     </td>
                 </tr>
+                <tr>
+                    <td>example@email.com</td>
+                    <td>John Doe</td>
+                    <td>Main Office</td>
+                    <td>Region 1</td>
+                    <td>IT</td>
+                    <td>123</td>
+                    <td>Developer</td>
+                    <td>Staff</td>
+                    <td>Division A</td>
+                    <td>Active</td>
+                    <td>
+                        <button class="btn btn-warning">Deactivate</button>
+                        <button class="btn btn-success">Reset Password</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>example@email.com</td>
+                    <td>John Doe</td>
+                    <td>Main Office</td>
+                    <td>Region 1</td>
+                    <td>IT</td>
+                    <td>123</td>
+                    <td>Developer</td>
+                    <td>Staff</td>
+                    <td>Division A</td>
+                    <td>Active</td>
+                    <td>
+                        <button class="btn btn-warning">Deactivate</button>
+                        <button class="btn btn-success">Reset Password</button>
+                    </td>
+                </tr>
+                
             </tbody>
         </table>
         <br>
